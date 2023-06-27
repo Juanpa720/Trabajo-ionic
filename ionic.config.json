@@ -1,0 +1,7 @@
+{
+  "name": "prmeraionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
