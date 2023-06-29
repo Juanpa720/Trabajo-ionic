@@ -13,5 +13,12 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-list *ngIf="characters">
+</ion-item *ngFor="let character of characters.result">
+  <ion-avatar>
+    <img  [src]="character.image" />
+</ion-avatar>
+</ion-item>
+</ion-list>
+
 </ion-content>

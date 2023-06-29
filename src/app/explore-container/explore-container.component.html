@@ -1,4 +1,7 @@
-<div id="container">
-  <strong>{{ name }}</strong>
-  <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-</div>
+</ion-list *ngif="characters">
+  </ion-item *ngfor="let character of characters.result">
+    <ion-avatar>
+      <img  [src]="character.image" />
+  </ion-avatar>
+  </ion-item>
+</ion-list>
